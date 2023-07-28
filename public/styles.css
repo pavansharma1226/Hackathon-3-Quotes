@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+
+.quote{
+  max-width:fit-content;
+  margin: 0 auto;
+  padding: 20px;
+  background-color:antiquewhite;
+}
+
+#author{
+  text-align: center;
+}
+
+.top-buttons {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: green;
+}
+
+button {
+  display: flex;
+  background-color:green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+#add_button{
+  background-color:black;
+  color: white;
+  border: none;
+  margin-left: 0;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+#createQuoteForm, #allQuotes, #quote {
+  margin-top: 20px;
+}
+
+#createQuoteForm{
+  margin-left: 30%;
+  padding-top: 4%;
+  padding-right: 5%;
+  padding-left: 2%;
+  padding-bottom: 2%;
+  max-width: 40%;
+  background-color: rgb(30, 196, 30);
+}
+
+input, textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.quotes {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+
+
+.quote-item  {
+  position: relative;
+  margin-bottom: 15px;  
+  padding: 10px;
+  background-color:rgb(148, 209, 229);
+  font-weight: bold;
+}
+
+.quotes h3{
+  text-transform: uppercase;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
+}
+
+.quote-item button {
+  position: absolute;
+  top: 1.1rem;
+  right: 1.5rem;
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.quote-item p{
+  margin-top: 3px;
+  margin-left: 20px;
+  margin-bottom: 1%;
+}
+
